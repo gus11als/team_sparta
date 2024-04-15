@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김현민의 개인 페이지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Pen+Script&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #F4F3EA;
+        }
+
+        .left_profile {
+            position: absolute;
+            left: 100px;
+            width: 600px;
+            height: 650px;
+            top: 100px;
+            background-color: #F4F3EA;
+            text-align: center;
+            border: 4px solid black;
+            border-radius: 20px;
+        }
+
+        .left_img {
+            position: absolute;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            background-image: url('file:///C:/Users/김현민/Desktop/개인프로젝트/IMG_81937-w577.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .content {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            margin: 0;
+            font-family: "Nanum Pen Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            padding-top: 50px;
+
+        }
+
+        h1 {
+            font-family: "Do Hyeon", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+        .center_circle{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background-image: url('https://teamsparta.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Fae5d6bb4-5849-40a6-b477-b7f6a36aaa41%2FSpartaIconScale7.png?table=block&id=6336f51b-69cd-443a-b0cf-a425f5c8550d&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=250&userId=&cache=v2');
+            left: 780px;
+            top: 240px;
+            border: 4px solid black;
+            border-radius: 50%;
+            text-align: center;
+            background-position: center;
+            background-size: cover;
+        }
+    
+        .right_profile{
+            position: absolute;
+            right: 150px;
+            width: 600px;
+            height: 650px;
+            top: 100px;
+            background-color: #F4F3EA;
+            text-align: left;
+            border: 4px solid black;
+            border-radius: 20px;
+            padding-left: 10px;
+        }
+        .right_p{
+            font-size: 30px;
+            font-family: "Nanum Pen Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 35px;
+        }
+        .center_p{
+            font-size: 30px;
+            font-family: "Nanum Pen Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 35px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .bottom_profile{
+            position: absolute;
+            width: 100%;
+            background-color: red;
+            bottom: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left_profile">
+        <div class="left_img"></div>
+        <div class="content">
+            <h1>김현민</h1>
+            <p>안녕하세요 I'm ground 자기소개 팀원인 김현민입니다. 어려운게 <br>많지만 열심히 하겠습니다.</p>
+            <p class="link"><a href="https://github.com/gus11als"target="_blank">GitHub 바로가기</a></p>
+        </div>
+    </div>
+    <div class="center_circle">
+        <p class="center_p"><a href="https://github.com/gus11als">이전 페이지로 돌아가기</a></p>
+    </div>
+    <div class="right_profile">
+        <div class="content2">
+            <h1>나의 MBTI 및 취미</h1>
+            <p class="right_p">INFJ로 인내심이 많고 통찰력과 직관력이 뛰어나며, 화합을 추구하는 유형이라고 합니다 좋아하는건 게임입니다. ㅎㅅㅎ</p>
+            <h1>나의 성격</h1>
+            <p class="right_p">소심하지만 친해지면 매우 활발해지고 맡은 일이 있으면 왠만하면 빠르게 하려고 노력하는 편입니다.<br>(하지만 잘못하는게 함정)</p>
+            <h1>나의 협업 스타일</h1>
+            <p class="right_p">본인의 의견보다는 다른사람의 의견을 먼저 물어보고 좋은 의견이 있으면 바로 수용하며 가르치는것보단 배우는걸 좋아하는 스타일입니다.(이유는 본인도 잘모름..)</p>
+        </div>
+    </div>
+    <div class="bottom_profile">
+        <h1>하이</h1>
+    </div> 
+</body>
+
+</html>
