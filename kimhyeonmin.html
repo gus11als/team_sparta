@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Pen+Script&display=swap"
         rel="stylesheet">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
         body {
             background-color: #F4F3EA;
@@ -125,6 +126,12 @@
             font-style: normal;
         }
     </style>
+    <script type="module">
+        $("#back").click(function () {
+            window.location.href = "팀소개 페이지.html"; // 새로운 페이지로 이동
+        });
+        
+    </script>
 </head>
 
 <body>
@@ -137,7 +144,7 @@
         </div>
     </div>
     <div class="center_circle">
-        <p class="center_p"><a href="https://github.com/gus11als">이전 페이지로 돌아가기</a></p>
+        <p class="center_p" id="back">이전 페이지로 돌아가기</a></p>
     </div>
     <div class="right_profile">
         <div class="content2">
