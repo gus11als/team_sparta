@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.UpperContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+  margin: 30px;
+  width: 70vw;
+}
+.UpperConent {
+  display: flex;
+  background-color: azure;
+  height: 80%;
+  width: 300px;
+  border: 1.5px solid RGBA(64, 64, 64, 1);
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 5px RGBA(173, 216, 230, 1);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+}
+.UpperConent > img {
+  border-radius: 5px;
+  width: 200px;
+  padding-top: 10px;
+}
+.introduce {
+  display: flex;
+  background-color: azure;
+  height: 40%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.introduce > p {
+  letter-spacing: 2px;
+  line-height: 2;
+}
+#gitlink {
+  font-size: 30px;
+  cursor: pointer;
+}
+.hobby {
+  display: flex;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hobby > div {
+  margin: 20px;
+}
+.hobby > div > i {
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+.moto {
+  text-align: center;
+  line-height: 1.5;
+  height: 30%;
+}
+.mbti {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.4;
+}
+.mbti > p:nth-child(2) {
+  font-size: 40px;
+  color: blueviolet;
+}
+.lowerContainer {
+  display: flex;
+  width: 70vw;
+  height: 25vh;
+
+  flex-direction: column;
+}
+.visitcomment {
+  background-color: azure;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 5px 10px 10px 5px RGBA(173, 216, 230, 1);
+}
+.commentBlock {
+  display: flex;
+  padding: 3px;
+  font-size: 15px;
+  justify-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.commentName {
+  padding-left: 5px;
+  color: rebeccapurple;
+  margin-right: 8px;
+}
+.commentDelete,
+.commentFix {
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 3px;
+  font-size: 10px;
+}
