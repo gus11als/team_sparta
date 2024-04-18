@@ -1,5 +1,5 @@
 body {
-  background-image: url('/team_sparta/img/벚꽃.jpg');
+  background-image: url('/img/벚꽃.jpg');
   background-size: cover;
   background-position: center;
   margin: 0 0 0 0;
@@ -52,7 +52,7 @@ body {
 .left_jpg {
   border: 5px solid black;
   border-radius: 20px;
-  background-image: url('/team_sparta/img/letf.jpg');
+  background-image: url('/img/letf.jpg');
   width: 650px;
   height: 500px;
   background-size: cover;
@@ -143,7 +143,7 @@ body {
 .one_jpg {
   width: 350px;
   height: 400px;
-  background-image: url('/team_sparta/img/kimHyeonmin.jpg');
+  background-image: url('/img/kimHyeonmin.jpg');
   background-size: cover;
   cursor: pointer;
 }
@@ -160,7 +160,7 @@ body {
 .two_jpg {
   width: 350px;
   height: 400px;
-  background-image: url('/team_sparta/img/kimmangyu.jpeg');
+  background-image: url('img/kimmangyu.jpeg');
   background-size: cover;
   cursor: pointer;
 }
@@ -177,7 +177,7 @@ body {
 .three_jpg {
   width: 350px;
   height: 400px;
-  background-image: url('/team_sparta/img/JoYoungJin.jpg');
+  background-image: url('/img/JoYoungJin.jpg');
   background-size: cover;
   cursor: pointer;
 }
@@ -194,7 +194,7 @@ body {
 .four_jpg {
   width: 350px;
   height: 400px;
-  background-image: url('/team_sparta/img/홍걸.png');
+  background-image: url('/img/홍걸.png');
   background-size: cover;
   cursor: pointer;
 }
