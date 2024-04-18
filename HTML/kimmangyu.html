@@ -4,112 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>NodeJs 10조 김만규 소개 페이지</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f0f0;
-      color: #333;
-      padding: 20px;
-    }
-
-    .container {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-      text-align: center;
-    }
-
-    .profilePhotoContainer {
-      flex: 1 1 300px;
-      padding: 20px;
-      border: 3px solid #ccc;
-      border-radius: 30px;
-      margin-right: 20px;
-      text-align: center;
-    }
-
-    .profilePhoto {
-      width: 225px;
-      height: 225px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-bottom: 20px;
-      cursor: pointer
-    }
-
-    .tistoryPhoto,
-    .githubPhoto {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
-
-    .description {
-      flex: 1 1 300px;
-      padding: 20px;
-      border: 3px solid #ccc;
-      border-radius: 30px;
-    }
-
-    .draggable {
-      flex: 1 1 100%;
-      padding: 20px;
-      border: 3px solid #ccc;
-      border-radius: 30px;
-      text-align: center;
-      width: 865px;
-      margin: 0 auto;
-    }
-
-    a {
-      display: inline-block;
-      text-decoration-line: none;
-      width: 60px;
-      height: 60px;
-      margin-right: 20px;
-    }
-
-    .messageContainer {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      display: none;
-      z-index: 1000;
-    }
-
-    .message {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: rgba(255, 255, 255, 0.8);
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      font-size: 5em;
-      color: #333;
-      text-align: center;
-      line-height: 1.5;
-      white-space: nowrap;
-    }
-
-    .nameStrone {
-      font-size: 1.2em;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="/CSS/kimmangyu.css">
+  <script type="text/javascript" src="/JavaScript/kimmangyu.js"></script>
 </head>
 
 <body>
   <div class="container">
     <div class="profilePhotoContainer">
-      <img src="kimmangyu.jpeg" alt="Profile Photo" class="profilePhoto" id="rotateImage">
+      <img src="/img/kimmangyu.jpeg" alt="Profile Photo" class="profilePhoto" id="rotateImage">
       <p>안녕하세요 Node.Js 5기 10조 <strong class="nameStrone">김만규</strong>입니다.</p>
       <a href="https://kimmangyu.tistory.com/" target="_blank" class="cre">
         <img src="https://t1.daumcdn.net/cfile/tistory/994480425E97525C04" class="tistoryPhoto" alt="Tistory Photo">
@@ -140,7 +42,7 @@
   <div class="messageContainer">
     <div class="message">다들 만나서 반갑습니다 잘 부탁드립니다!!</div>
   </div>
-
+<!-- 
   <script type="text/javascript">
     var colour = "random";
     var sparkles = 1000;
@@ -387,7 +289,7 @@
       }
     });
 
-  </script>
+  </script> -->
 </body>
 
 </html>
