@@ -160,7 +160,7 @@ body {
 .two_jpg {
   width: 350px;
   height: 400px;
-  background-image: url('img/kimmangyu.jpeg');
+  background-image: url('../img/kimmangyu.jpeg');
   background-size: cover;
   cursor: pointer;
 }
