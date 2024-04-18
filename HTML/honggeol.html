@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>코딩은 밥심 - 안홍걸 Node.js 6</title>
+    <link rel="stylesheet" href="/CSS/reset.css" />
+    <link rel="stylesheet" href="/CSS/hong.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/15de08e773.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--jquery 코드입니다 없다면 꼭 가져가세요-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
+    <!-- FireBase관련 스크립트!!-->
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore-compat.js"></script>
+    <script type="module" src="/JavaScript/honggeol.js"></script>
+  </head>
+  <body>
+    <div class="UpperContainer">
+      <span class="UpperConent">
+        <img src="/img/홍걸.png" />
+        <div class="introduce">
+          <p>이름 : 안홍걸</p>
+          <p>생년월일 : 1996 . 05 . 26</p>
+          <a href="https://github.com/4cozm">
+            <i id="gitlink" class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </span>
+      <span class="UpperConent">
+        <div class="hobby bold">
+          취미
+          <div>
+            <i class="motoContent fa-solid fa-gamepad"></i>
+            <i class="motoContent fa-solid fa-book"></i>
+          </div>
+        </div>
+        <div class="moto bold">
+          장점&협업 스타일
+          <p class="motoContent">#문제 해결을 위해서라면 밤샘도 OK</p>
+          <p class="motoContent">#주도적으로 먼저 제시,<br />의견적극 환영</p>
+        </div>
+        <div class="mbti">
+          <p>MBTI</p>
+          <p>INTP</p>
+        </div>
+      </span>
+    </div>
+    <div class="lowerContainer">
+      <form class="visitcomment">
+        방명록 작성
+        <input
+          size="4"
+          class="name form-control form-control-sm"
+          type="text"
+          placeholder="이름"
+          aria-label=".form-control-sm example"
+        />
+        <input
+          size="40"
+          class="comment form-control form-control-sm"
+          type="text"
+          placeholder="내용"
+          aria-label=".form-control-sm example"
+        />
+        <input
+          class="password"
+          size="4"
+          type="password"
+          placeholder="비밀번호 4자리"
+        />
+        <button id="commentWrite" type="button">작성</button>
+      </form>
+    </div>
+  </body>
+</html>
