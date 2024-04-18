@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>미니 프로젝트(팀 소개 페이지)</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
@@ -20,7 +20,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore-compat.js"></script>
-    <script type="module" src="../JavaScript/main.js">
+    <script src="../JavaScript/main.js">
+    </script>
+
+    <script type="module">
+        $("#hyeonmin").click(function () {
+            window.location.href = "kimhyeonmin.html"; // 새로운 페이지로 이동
+        });
+        $("#mangyu").click(function () {
+            window.location.href = "kimmangyu.html"; // 새로운 페이지로 이동
+        });
+        $("#youngjin").click(function () {
+            window.location.href = "joyoungjin.html"; // 새로운 페이지로 이동
+        });
+        $("#honggeol").click(function () {
+            window.location.href = "honggeol.html"; // 새로운 페이지로 이동
+        });
     </script>
 </head>
 
@@ -84,15 +99,15 @@
             <h2 class="profilejpg_text">MBTI: INTP</h2>
         </div>
     </div>
-        <div class="lowerContainer">
-            <form class="visitcomment">
-                방명록 작성하기<br>
-                <input  class="name" type="text" placeholder="이름"/>
-                <input  class="comment" type="text" placeholder="내용"/>
-                <input class="password" size="4" type="password" placeholder="비밀번호" />
-                <button class="button" id="commentWrite" type="button">작성</button>
-            </form>
-        </div>
+    <div class="lowerContainer">
+        <form class="visitcomment">
+            방명록 작성하기<br>
+            <input class="name" type="text" placeholder="이름" />
+            <input class="comment" type="text" placeholder="내용" />
+            <input class="password" size="4" type="password" placeholder="비밀번호" />
+            <button class="button" id="commentWrite" type="button">작성</button>
+        </form>
+    </div>
 </body>
 
 </html>

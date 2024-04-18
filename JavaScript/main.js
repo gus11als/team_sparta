@@ -1,16 +1,3 @@
-$("#hyeonmin").click(function () {
-  window.location.href = "kimhyeonmin.html"; // 새로운 페이지로 이동
-});
-$("#mangyu").click(function () {
-  window.location.href = "kimmangyu.html"; // 새로운 페이지로 이동
-});
-$("#youngjin").click(function () {
-  window.location.href = "joyoungjin.html"; // 새로운 페이지로 이동
-});
-$("#honggeol").click(function () {
-  window.location.href = "honggeol.html"; // 새로운 페이지로 이동
-});
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
 import {
