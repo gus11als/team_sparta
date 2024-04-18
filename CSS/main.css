@@ -2,7 +2,7 @@ body {
   background-image: url('../img/벚꽃.jpg');
   background-size: cover;
   background-position: center;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 .top {
@@ -12,8 +12,8 @@ body {
   background-color: white;
   padding: 20px 0;
   background-image: url('https://www.askedtech.com/api/kords/admin/product/image.jpg?type=org&id=22728');
-  background-position: center;
   border-bottom: 1px solid white;
+  width: 2000px;
 }
 
 .top_text {
@@ -40,8 +40,8 @@ body {
 }
 
 .main {
-  position: relative;
-  width: 90%;
+  display: flex;
+  width: 1600px;
   height: 1000px;
   margin: 0 auto;
   background: rgb(255, 255, 255);
@@ -61,8 +61,8 @@ body {
 
 .jpg_text {
   position: absolute;
-  top: 480px;
-  left: 200px;
+  top: 750px;
+  left: 320px;
   font-family: "Single Day", cursive;
   font-weight: 400;
   font-style: normal;
@@ -71,14 +71,14 @@ body {
 }
 
 .right_profile {
-  position: absolute;
-  top: 0;
-  right: 100px;
-  width: 700px;
   height: 600px;
+  width: 600px;
+  margin-left: 350px;
+  margin-top: 20px;
   background-color: #fff5f6;
   border: 5px solid black;
   border-radius: 20px;
+  flex: 1 1 50%;
 
 }
 
@@ -99,10 +99,10 @@ body {
 
 .bottom_profile {
   position: absolute;
-  top: 650px;
+  top: 900px;
   width: 1000px;
   height: 300px;
-  left: 350px;
+  left: 400px;
   background-color: #fff5f6;
   border: 5px solid black;
   border-radius: 20px;
