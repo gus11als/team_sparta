@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>미니 프로젝트(팀 소개 페이지)</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             background-image: url('벚꽃.jpg');
             background-size: cover;
             background-position: center;
-            margin: 0 0 0 0;
+            margin: 0;
         }
 
         .top {
@@ -35,8 +35,8 @@
             background-color: white;
             padding: 20px 0;
             background-image: url('https://www.askedtech.com/api/kords/admin/product/image.jpg?type=org&id=22728');
-            background-position: center;
             border-bottom: 1px solid white;
+            width: 2000px;
         }
 
         .top_text {
@@ -63,8 +63,8 @@
         }
 
         .main {
-            position: relative;
-            width: 90%;
+            display: flex;
+            width: 1600px;
             height: 1000px;
             margin: 0 auto;
             background: rgb(255, 255, 255);
@@ -76,16 +76,16 @@
             border: 5px solid black;
             border-radius: 20px;
             background-image: url('letf.jpg');
-            width: 650px;
-            height: 500px;
+            flex-basis: 650px;
+            max-height: 500px;
             background-size: cover;
             margin-top: 20px
         }
 
         .jpg_text {
             position: absolute;
-            top: 480px;
-            left: 200px;
+            top: 750px;
+            left: 320px;
             font-family: "Single Day", cursive;
             font-weight: 400;
             font-style: normal;
@@ -94,15 +94,14 @@
         }
 
         .right_profile {
-            position: absolute;
-            top: 0;
-            right: 100px;
-            width: 700px;
             height: 600px;
+            width: 600px;
+            margin-left: 350px;
+            margin-top: 20px;
             background-color: #fff5f6;
             border: 5px solid black;
             border-radius: 20px;
-
+            flex: 1 1 50%;
         }
 
         .right_text {
@@ -122,10 +121,10 @@
 
         .bottom_profile {
             position: absolute;
-            top: 650px;
+            top: 900px;
             width: 1000px;
             height: 300px;
-            left: 350px;
+            left: 400px;
             background-color: #fff5f6;
             border: 5px solid black;
             border-radius: 20px;
@@ -229,29 +228,29 @@
             font-style: normal;
         }
 
-        .lowerContainer{
+        .lowerContainer {
             width: 100%;
             height: 500px;
             text-align: center;
             font-size: 30px;
         }
-        .name{
+
+        .name {
             width: 100px;
             font-size: 24px;
         }
-        .comment{
+
+        .comment {
             width: 400px;
             font-size: 24px;
         }
-        .password{
-<<<<<<< HEAD
-            width: 150px;
-=======
+
+        .password {
             width: 160px;
->>>>>>> 72917e7d9616981e302f62b1c67fabe01b435b86
             font-size: 24px;
         }
-        .button{
+
+        .button {
             background-color: beige;
             border: none;
             color: black;
@@ -268,7 +267,8 @@
             border: 3px solid white;
             border-radius: 30px;
         }
-        .visitcomment{
+
+        .visitcomment {
             width: 100%;
             height: 100px;
             text-align: center;
@@ -277,14 +277,16 @@
             font-style: normal;
             font-size: 50px;
         }
-        .commentBlock{
+
+        .commentBlock {
             margin-top: 10px;
             display: flex;
             border: 3px solid beige;
             border-radius: 30px;
             background-color: white;
         }
-        .commentDelete{
+
+        .commentDelete {
             background-color: beige;
             border: none;
             color: black;
@@ -301,7 +303,8 @@
             border: 3px solid white;
             border-radius: 30px;
         }
-        .commentFix{
+
+        .commentFix {
             background-color: beige;
             border: none;
             color: black;
@@ -515,7 +518,6 @@
         <div class="right_profile">
             <h1 class="right_text">팀 소개: 성실한 개발자가 되기 위해 노력하는 4인팀입니다.</h1>
             <h1 class="right_text">팀 규칙</h1>
-
             <ul class="right_list">
                 <li>적극적으로 참여하기!</li>
                 <li>의견 다양성을 존중하기!</li>
@@ -559,15 +561,15 @@
             <h2 class="profilejpg_text">MBTI: INTP</h2>
         </div>
     </div>
-        <div class="lowerContainer">
-            <form class="visitcomment">
-                방명록 작성하기<br>
-                <input  class="name" type="text" placeholder="이름"/>
-                <input  class="comment" type="text" placeholder="내용"/>
-                <input class="password" size="4" type="password" placeholder="비밀번호" />
-                <button class="button" id="commentWrite" type="button">작성</button>
-            </form>
-        </div>
+    <div class="lowerContainer">
+        <form class="visitcomment">
+            방명록 작성하기<br>
+            <input class="name" type="text" placeholder="이름" />
+            <input class="comment" type="text" placeholder="내용" />
+            <input class="password" size="4" type="password" placeholder="비밀번호" />
+            <button class="button" id="commentWrite" type="button">작성</button>
+        </form>
+    </div>
 </body>
 
 </html>
