@@ -3,7 +3,6 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth
 import {
   getFirestore,
   doc,
-  setDoc,
   collection,
   addDoc,
   getDocs,
