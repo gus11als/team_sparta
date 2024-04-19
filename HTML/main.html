@@ -1,110 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>미니 프로젝트(팀 소개 페이지)</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Pen+Script&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Single+Day&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Oswald:wght@200..700&family=Single+Day&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&family=Oswald:wght@200..700&family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore-compat.js"></script>
 
-    <script src="../JavaScript/main.js">
-    </script>
+    <script src="../JavaScript/main.js"></script>
     <script type="module">
-        $("#hyeonmin").click(function () {
-            window.location.href = "kimhyeonmin.html"; // 새로운 페이지로 이동
-        });
-        $("#mangyu").click(function () {
-            window.location.href = "kimmangyu.html"; // 새로운 페이지로 이동
-        });
-        $("#youngjin").click(function () {
-            window.location.href = "joyoungjin.html"; // 새로운 페이지로 이동
-        });
-        $("#honggeol").click(function () {
-            window.location.href = "honggeol.html"; // 새로운 페이지로 이동
-        });
+      $("#hyeonmin").click(function () {
+        window.location.href = "kimhyeonmin.html"; // 새로운 페이지로 이동
+      });
+      $("#mangyu").click(function () {
+        window.location.href = "kimmangyu.html"; // 새로운 페이지로 이동
+      });
+      $("#youngjin").click(function () {
+        window.location.href = "joyoungjin.html"; // 새로운 페이지로 이동
+      });
+      $("#honggeol").click(function () {
+        window.location.href = "honggeol.html"; // 새로운 페이지로 이동
+      });
     </script>
     <script type="module" src="../JavaScript/main.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="top">
-        <h1 class="top_text">I'm ground <span class="top_text2">자기소개</span></h1>
-        <p class="center_p"> Node.js 5기 코딩은 밥심 (10조)</p>
+      <h1 class="top_text">
+        I'm ground <span class="top_text2">자기소개</span>
+      </h1>
+      <p class="center_p">Node.js 5기 코딩은 밥심 (10조)</p>
     </div>
     <div class="main">
-        <div class="left_jpg">
-            <p class="jpg_text">열심히 공부중인 모습</p>
-        </div>
-        <div class="right_profile">
-            <h1 class="right_text">팀 소개: 성실한 개발자가 되기 위해 노력하는 4인팀입니다.</h1>
-            <h1 class="right_text">팀 규칙</h1>
+      <div class="left_jpg">
+        <p class="jpg_text">열심히 공부중인 모습</p>
+      </div>
+      <div class="right_profile">
+        <h1 class="right_text">
+          팀 소개: 성실한 개발자가 되기 위해 노력하는 4인팀입니다.
+        </h1>
+        <h1 class="right_text">팀 규칙</h1>
 
-            <ul class="right_list">
-                <li>적극적으로 참여하기!</li>
-                <li>의견 다양성을 존중하기!</li>
-                <li>실수와 실패를 인정하기!</li>
-                <li>점심 저녁시간 잘지키기!</li>
-                <li>계획을 명확하게 정의하고 공유하기!</li>
-                <li>소통하고 피드백을 받아들이기!</li>
-                <li>모르는것은 언제든지 질문하기!</li>
-            </ul>
-        </div>
-        <div class="bottom_profile">
-            <h1 class="bottom_text">팀 목표, 회의,약속시간</h1>
-            <p class="bottom_p">팀원들과 적극적으로 소통하고 정보를 공유하며 협업 능력을 기르는 개발자로 성장하기!
-                <br>점심시간: 13:00 ~ 14:00 <br> 저녁시간: 18:00 ~ 19:00 <br>정기회의(진척도 확인): 점심먹은 후
-            </p>
-        </div>
+        <ul class="right_list">
+          <li>적극적으로 참여하기!</li>
+          <li>의견 다양성을 존중하기!</li>
+          <li>실수와 실패를 인정하기!</li>
+          <li>점심 저녁시간 잘지키기!</li>
+          <li>계획을 명확하게 정의하고 공유하기!</li>
+          <li>소통하고 피드백을 받아들이기!</li>
+          <li>모르는것은 언제든지 질문하기!</li>
+        </ul>
+      </div>
+      <div class="bottom_profile">
+        <h1 class="bottom_text">팀 목표, 회의,약속시간</h1>
+        <p class="bottom_p">
+          팀원들과 적극적으로 소통하고 정보를 공유하며 협업 능력을 기르는
+          개발자로 성장하기! <br />점심시간: 13:00 ~ 14:00 <br />
+          저녁시간: 18:00 ~ 19:00 <br />정기회의(진척도 확인): 점심먹은 후
+        </p>
+      </div>
     </div>
     <div class="personal_profile">
-        <div class="one">
-            <div class="one_jpg" id="hyeonmin">
-            </div>
-            <h2 class="profilejpg_text">팀원: 김현민</h2>
-            <h2 class="profilejpg_text">MBTI: INFJ</h2>
-        </div>
-        <div class="two">
-            <div class="two_jpg" id="mangyu">
-            </div>
-            <h2 class="profilejpg_text">팀원: 김만규</h2>
-            <h2 class="profilejpg_text">MBTI: ESTJ</h2>
-        </div>
-        <div class="three">
-            <div class="three_jpg" id="youngjin">
-            </div>
-            <h2 class="profilejpg_text">팀원: 조영진</h2>
-            <h2 class="profilejpg_text">MBTI: INTP</h2>
-        </div>
-        <div class="four">
-            <div class="four_jpg" id="honggeol">
-            </div>
-            <h2 class="profilejpg_text">팀원: 안홍걸</h2>
-            <h2 class="profilejpg_text">MBTI: INTP</h2>
-        </div>
+      <div class="one">
+        <div class="one_jpg" id="hyeonmin"></div>
+        <h2 class="profilejpg_text">팀원: 김현민</h2>
+        <h2 class="profilejpg_text">MBTI: INFJ</h2>
+      </div>
+      <div class="two">
+        <div class="two_jpg" id="mangyu"></div>
+        <h2 class="profilejpg_text">팀원: 김만규</h2>
+        <h2 class="profilejpg_text">MBTI: ESTJ</h2>
+      </div>
+      <div class="three">
+        <div class="three_jpg" id="youngjin"></div>
+        <h2 class="profilejpg_text">팀원: 조영진</h2>
+        <h2 class="profilejpg_text">MBTI: INTP</h2>
+      </div>
+      <div class="four">
+        <div class="four_jpg" id="honggeol"></div>
+        <h2 class="profilejpg_text">팀원: 안홍걸</h2>
+        <h2 class="profilejpg_text">MBTI: INTP</h2>
+      </div>
     </div>
     <div class="lowerContainer">
-        <form class="visitcomment">
-            방명록 작성하기<br>
-            <input class="name" type="text" placeholder="이름" />
-            <input class="comment" type="text" placeholder="내용" />
-            <input class="password" size="4" type="password" placeholder="비밀번호" />
-            <button class="button" id="commentWrite" type="button">작성</button>
-        </form>
+      <form class="visitcomment">
+        방명록 작성하기<br />
+        <input class="name" type="text" placeholder="이름" />
+        <input class="comment" type="text" placeholder="내용" />
+        <input
+          class="password"
+          size="4"
+          type="password"
+          maxlength="4"
+          placeholder="비밀번호"
+        />
+        <button class="button" id="commentWrite" type="button">작성</button>
+      </form>
     </div>
-</body>
-
+  </body>
 </html>
